@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>lifeplus</title>
+  <link rel="shortcut icon" href="https://freepikpsd.com/media/2019/10/white-plus-sign-png-3-Transparent-Images.png" type="image/x-icon">
+   <!-- just for the health of it. -->
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <!-- Font Awesome -->
+  <script class="press-logo" src="https://kit.fontawesome.com/3ea53c1d6b.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section id="title">
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <img src="../images/lifeplus.png">
+      <a class="navbar-brand" href="home">lifeplus</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbartoggler" aria-controls="#navbartoggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> 
+      <div class="collapse navbar-collapse" id="navbartoggler">
+      <ui class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="favicons fas fa-shield-virus"></i>COVID Health</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Blogs</a>
+            <a class="dropdown-item" href="#">Videos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Vaccine info</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="transplant"><i class="favicons fas fa-people-arrows"></i>Transplant info</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ventilator" ><i class="favicons fas fa-procedures"></i>ventilators</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer" ><i class="favicons fas fa-phone-alt"></i>Contact</a>
+        </li>
+      </ui>
+    </div>
+    </nav>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="first-test carousel-item active">
+          <h2 class="testimonial-text">Find your nearby Hospital</h2>
+          <button type="button" class="test-button btn btn-primary" onclick="location.href='hospital'">Know More</button>
+        </div>
+        <div class="second-test carousel-item">
+          <h2 class="testimonial-text">Get help from professionals</h2>
+          <button type="button" class="test-button btn btn-secondary">Learn More</button>
+        </div>
+        <div class="third-test carousel-item">
+          <h2 class="testimonial-text">Know About it</h2>
+          <button type="button" class="test-button btn btn-info">Learn More</button>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <span class="fas fa-phone-alt fa-3x"></span>
+          <h4 class="heading">Emergency Departments</h4>
+          <p class="subheading">We have a comprehensive emergency centre equipped with the highest level of skill.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="fas fa-calendar-alt fa-3x"></span>
+          <h4 class="heading">24 hour service</h4>
+          <p class="subheading">Our team of highly skilled doctors and support staff work round the clock to remain available for emergencies in case of eventualities</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="feature-icon fas fa-cloud fa-3x"></span>
+          <h4 class="heading">Advanced Technology</h4>
+          <p class="subheading">We have robust, modern technology to deliver the highest quality standards of medical treatment- be it medical or surgical.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="feature-icon fas fa-ambulance fa-3x"></span>
+          <h4 class="heading">Ambulance</h4>
+          <p class="subheading">Our host of ambulances are well equipped and manned by highly skilled and well-trained personnel, geared to meet any emergency.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="feature-icon fas fa-heartbeat fa-3x"></span>
+          <h4 class="heading">Primary health care</h4>
+          <p class="subheading">We offer comprehensive ambulatory personal health care services ranging from prevention, treatment and rehabilitation care to people of low-income groups, who do not have the means to visit the hospital.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="feature-icon fas fa-capsules fa-3x"></span>
+          <h4 class="heading">Pharmacy stores</h4>
+          <p class="subheading">The pharmacy and drug store offers genuine medicines, round the clock, catering to the medication needs of various patients. The store is well stocked and manned by competent staff with a computerized system.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="feature-icon fas fa-hospital fa-3x"></span>
+          <h4 class="heading">Laboratory and research</h4>
+          <p class="subheading">Pioneering cutting edge innovations in our laboratory and research centres, the doctors and support staff focus on clinical excellence at affordable costs, taking aid of modern technology.</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <span class="feature-icon fas fa-user-md fa-3x"></span>
+          <h4 class="heading">Medical nursing home</h4>
+          <p class="subheading">In  our nursing home, we redefine the healthcare landscape in India, we offer top-notch quality care services at the doorstep for convenience,satisfaction and comfort of patients and their families.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer-section" id="footer">
+    <div class="container-fluid">
+    <a href="https://github.com/vaishnavi990">
+      <i class="social-icon fab fa-github fa-2x"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/vaishnavi-bhallamudi-4309b0196/">
+      <i class="social-icon fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="https://mail.google.com">
+      <i class="social-icon fas fa-envelope fa-2x"></i>
+    </a>
+    <a href="https://www.facebook.com/">
+      <i class="social-icon fab fa-facebook-f fa-2x"></i>
+    </a>
+    <a href="https://www.twitter.com/">
+      <i class="social-icon fab fa-twitter fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com/">
+      <i class="social-icon fab fa-instagram fa-2x"></i>
+    </a>
+    <p class="footer-line">© Copyright 2021 lifeplus vaishnavi990</p>
+  </div>
+  </footer>
+
+</body>
+</html>
+  
+
+
