@@ -65,12 +65,33 @@ img{
 }
 
 /* Features */
+#features, #manual{
+    background-color: #fff;
+    color: #34656d;
+}
 .feature-box{
     padding: 10px;
     text-align: center;
 }
 .feature-icon:hover{
-    color: #194350;
+    color: #343433;
+}
+
+/* vaccine information */
+.vaccine, .faqs{
+    background-color:#34656d;
+    color: #fff;
+    padding: 5%;
+    font-size: larger;
+}
+thead, .vaccine-headings{
+    text-align: center;
+    font-weight: bold;
+}
+.usermanual{
+    padding: 5%;
+    font-size: larger;
+    font-weight: 600;
 }
 
 /* Hospitals */
